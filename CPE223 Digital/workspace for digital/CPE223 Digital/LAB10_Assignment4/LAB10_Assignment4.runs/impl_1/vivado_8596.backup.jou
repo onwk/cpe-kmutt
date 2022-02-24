@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov  6 11:38:21 2020
+# Process ID: 8596
+# Current directory: D:/OUM/2-1/CPE223 Digital/LAB10_Assignment4/LAB10_Assignment4.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: D:/OUM/2-1/CPE223 Digital/LAB10_Assignment4/LAB10_Assignment4.runs/impl_1/top.vdi
+# Journal file: D:/OUM/2-1/CPE223 Digital/LAB10_Assignment4/LAB10_Assignment4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

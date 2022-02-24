@@ -1,0 +1,11 @@
+clear;
+clc;
+A=1;
+Fs=8000;
+F=300;
+dur=1;
+q=0.5*pi;
+n=0:1/Fs:dur;
+y=A*cos(2*pi*F*n+q);
+plot(n,y)
+sound(y,Fs)

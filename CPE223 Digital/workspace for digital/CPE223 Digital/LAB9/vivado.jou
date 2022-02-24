@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec  7 13:58:54 2020
+# Process ID: 260
+# Current directory: D:/OUM/2-1/CPE223 Digital/LAB9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6804 D:\OUM\2-1\CPE223 Digital\LAB9\LAB9.xpr
+# Log file: D:/OUM/2-1/CPE223 Digital/LAB9/vivado.log
+# Journal file: D:/OUM/2-1/CPE223 Digital/LAB9\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OUM/2-1/CPE223 Digital/LAB9/LAB9.xpr}
+update_compile_order -fileset sources_1
