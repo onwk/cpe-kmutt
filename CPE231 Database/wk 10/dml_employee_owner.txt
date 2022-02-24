@@ -1,0 +1,11 @@
+INSERT INTO employee VALUES (NULL, 'Smith', 'Sam','Master','206-254-1234');
+INSERT INTO employee VALUES (NULL, 'Evanston', 'John','Senior','206-254-2345');
+INSERT INTO employee VALUES (NULL, 'Murray', 'Dale','Junior','206-254-3456');
+INSERT INTO employee VALUES (NULL, 'Murphy', 'Jerry','Master','585-545-8765');
+INSERT INTO employee VALUES (NULL, 'Fontaine', 'Joan','Senior','206-254-4567');
+
+INSERT INTO owner VALUES (NULL, 'Mary Jones', 'Mary.Jones@somewhere.com','Individual');
+INSERT INTO owner VALUES (NULL, 'DT Enterprises', 'DTE@dte.com','Corporation');
+INSERT INTO owner VALUES (NULL, 'Sam Douglas', 'Sam.Douglas@somewhere.com','Individual');
+INSERT INTO owner VALUES (NULL, 'UNY Enterprises', 'UNYE@unye.com','Corporation');
+INSERT INTO owner VALUES (NULL, 'Doug Samuels', 'Doug.Samuels@somewhere.com','Individual');
