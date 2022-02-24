@@ -1,0 +1,144 @@
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000001','Dummy','Houston','2000-12-12','S',2000,'dummy@gmail.com','dummy1212');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000002','Samuel','Sammy','1999-10-01','HS',2000,'sammy@gmail.com','samuel1991');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000003','Jessie','Young','1995-03-22','R',2200,'jessie_young@hotmail.com','beautyjess22395');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000004','Boss','Banthao','2001-02-14','HS',2000,'bosskung@gmail.com','banthaokung1402');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000005','Taalew','Aromdee','2001-06-26','M',4000,'taalew@hotmail.com','aromdee55555');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000006','Baifern','Pummel','2000-09-19','A',5000,'bfgonnafly@gmail.com','bfloveloey123');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000007','Oreoum','Amongus','2000-08-30','S',2000,'sheriffmod@hotmail.com','wannabesheriff38');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000008','Yak','None','1997-02-04','RS',2000,'wannasleep@hotmail.com','321letsgo');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000009','Ten','Eleven','1995-11-10','RS',2000,'onezero@gmail.com','1011yourboy');
+INSERT INTO hotel_staff (staff_id,fname,lname,dob,job_title,salary,email,password)
+VALUES ('STF00000010','You','Tubee','1998-5-25','S',2000,'youtubeeboy@gmail.com','youtube7410');
+
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000001','Dummie','Girl','dummiegirl555@gmail.com','dummie0001','2/2 EMS St. Washington DC','0601231212');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000002','Pla','Krapong','plakrapongboy@hotmail.com','3maekrua','3/23 Three Valley Easton Blue','0899344444');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000003','Mae','Klong','samutsongkram@gmail.com','amphoemaeklong3','Samut Songkram','0833535533');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000004','Coveed','Twenty','coveed20@hotmail.com','twentyboy20','20 over st New York','0800202020');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000005','Number','Five','fifthboy5th@gmail.com','iamfifthboy555','5/55 fifth st Maldives','0950050055');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000006','Sixth','Cence','sixteengirl@hotmail.com','seentix6sixteen','60/6 Basil st Madrid','0605050066');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000007','Sev','Enth','notsixth@gmail.com','iamyour7seventh','77/77 Seven st Manchester','0870707777');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000008','Just','Doeight','eightnotegg@hotmail.com','eightboy888','82 Seven st. LA','0880080808');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000009','Wow','Amurk','wowwie@gmail.com','idonotdothat9','99/99 Nice st. Bangkok','0989989999');
+INSERT INTO hotel_customer (customer_id,fname,lname,email,password,address,tel)
+VALUES ('CST00000010','Tent','Meowmeow','tentmaikub@hotmail.com','justbuyme7979','79/79 nuek mai aok st. Beijing','0817979010');
+
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (1,'CST00000001','BH000000001',NULL,'2021-06-01 15:30:34');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (2,'CST00000001',NULL,'BR000000001','2021-06-01 15:45:27');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (3,'CST00000003','BH000000002',NULL,'2021-06-01 19:17:15');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (4,'CST00000005','BH000000003',NULL,'2021-06-01 20:02:57');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (5,'CST00000004',NULL,'BR000000002','2021-06-02 02:55:14');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (6,'CST00000006',NULL,'BR000000003','2021-06-02 03:40:48');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (7,'CST00000010','BH000000004',NULL,'2021-06-02 09:10:36');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (8,'CST00000010','BH000000005',NULL,'2021-06-03 21:15:42');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (9,'CST00000008',NULL,'BR000000004','2021-06-04 03:43:41');
+INSERT INTO hotel_customer_booking (no, customer_id_id,booking_no,resb_no,booking_date)
+VALUES (10,'CST00000010','BH000000006',NULL,'2021-06-04 12:16:49');
+
+INSERT INTO hotel_promotion_type (promotion_code,promotion_name,promotion_detail,promotion_type,start_date,expire_date,discount)
+VALUES ('KB100','KB Credit Card','Pay by using KB Credit Card to get 100 baht discount per booking','Restaurant','2021-06-01','2021-06-30','100');
+INSERT INTO hotel_promotion_type (promotion_code,promotion_name,promotion_detail,promotion_type,start_date,expire_date,discount)
+VALUES ('6D6M','Promotion for 6 June!','Get 200 Baht Discount for your booking. Only 6-7 June.','Hotel','2021-06-06','2021-06-07','200');
+INSERT INTO hotel_promotion_type (promotion_code,promotion_name,promotion_detail,promotion_type,start_date,expire_date,discount)
+VALUES ('NEWCST','NEW CUSTOMER ONLY','100 baht discount per booking. FOR NEW CUSTOMER ONLY','Restaurant','2021-01-01','2021-12-31','100');
+INSERT INTO hotel_promotion_type (promotion_code,promotion_name,promotion_detail,promotion_type,start_date,expire_date,discount)
+VALUES ('MIDY','Mid-year discount 200','200 Baht DISCOUNT per booking for midyear booking ONLY!','Hotel','2021-06-01','2021-07-01','200');
+
+INSERT INTO hotel_room (roomtype,capacity,price,amount)
+VALUES ('Junior Suite',3,2550,95);
+INSERT INTO hotel_room (roomtype,capacity,price,amount)
+VALUES ('Standard Room',3,3550,50);
+INSERT INTO hotel_room (roomtype,capacity,price,amount)
+VALUES ('Superior Room',5,5550,50);
+
+INSERT INTO hotel_service (service_code,service_name,charge)
+VALUES ('S0001','Breakfast',500);
+INSERT INTO hotel_service (service_code,service_name,charge)
+VALUES ('S0002','ExtraBed',700);
+INSERT INTO hotel_service (service_code,service_name,charge)
+VALUES ('S0003','Cleaning',500);
+
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (1,'Junior Suite','Breakfast',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (2,'Standard Room','Breakfast',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (3,'Standard Room','Cleaning',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (4,'Junior Suite','ExtraBed',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (5,'Junior Suite','Breakfast',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (6,'Superior Room','Breakfast',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (7,'Superior Room','Breakfast',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (8,'Superior Room','Cleaning',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (9,'Standard Room','ExtraBed',1);
+INSERT INTO hotel_room_detail (detail_no,roomtype_id,service_name,room_count)
+VALUES (10,'Standard Room','Breakfast',1);
+
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (1,1,'2021-06-05','2021-06-06',1,NULL,2,3550,'VISA');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (2,3,'2021-06-08','2021-06-09',2,'MIDY',2,4850,'VISA');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (3,3,'2021-06-08','2021-06-10',3,'MIDY',2,4850,'VISA');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (4,4,'2021-06-12','2021-06-13',4,'MIDY',3,4550,'VISA');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (5,4,'2021-06-12','2021-06-13',5,'MIDY',3,4550,'VISA');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (6,7,'2021-06-03','2021-06-04',6,NULL,2,6550,'MASTERCARD');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (7,8,'2021-07-02','2021-07-03',7,NULL,2,7050,'MASTERCARD');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (8,8,'2021-07-02','2021-07-03',8,NULL,2,7050,'MASTERCARD');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (9,10,'2021-07-28','2021-07-29',9,NULL,3,5750,'VISA');
+INSERT INTO hotel_room_booking (bhsurrogate,booking_no_id,date_check_in,date_check_out,detail_no_id,promotion_code,number_guest,total_charge,payment_method)
+VALUES (10,10,'2021-07-28','2021-07-29',10,NULL,3,5750,'VISA');
+
+INSERT INTO hotel_buffet_round (buffet_round,charge,amount)
+VALUES ('lunch',599,100);
+INSERT INTO hotel_buffet_round (buffet_round,charge,amount)
+VALUES ('dinner',799,100);
+
+INSERT INTO hotel_resbooking (resb_no_id,promotion_code,number_guest,eatdate,buffet_round_id,total_charge,paymentmethod)
+VALUES (1,'KB100',2,'2021-06-05 18:00:00','Dinner',1498,'VISA');
+INSERT INTO hotel_resbooking (resb_no_id,promotion_code,number_guest,eatdate,buffet_round_id,total_charge,paymentmethod)
+VALUES (5,NULL,5,'2021-06-13 12:00:00','Lunch',2995,'MASTERCARD');
+INSERT INTO hotel_resbooking (resb_no_id,promotion_code,number_guest,eatdate,buffet_round_id,total_charge,paymentmethod)
+VALUES (6,'NEWCST',2,'2021-06-11 18:00:00','Dinner',1498,'MASTERCARD');
+INSERT INTO hotel_resbooking (resb_no_id,promotion_code,number_guest,eatdate,buffet_round_id,total_charge,paymentmethod)
+VALUES (9,NULL,4,'2021-06-18 12:00:00','Lunch',2396,'VISA');
+
+INSERT INTO hotel_invoice (invoice_no,booking_no_id,resb_no_id,customer_id_id,staff_id_id,tax,date)
+VALUES ('BYT00000001',1,2,'CST00000001','STF00000003',337,'2021-06-06');
