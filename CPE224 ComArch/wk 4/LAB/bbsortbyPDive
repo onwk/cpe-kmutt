@@ -1,0 +1,81 @@
+Data		DCD		14, 2, 15, 1, 15, 7, 10, 6, 14	;For non-seperate Number
+		
+		MOV		R5,#0x400						; Start address of stack memory
+		MOV		R0, #0x200					; start address
+		ADD		R10,R0, #0x20 					; right bound
+		MOV		R9,#0						; left bound
+		
+SORT
+		LDR		R1,[R0]
+		MOV		R2,R0			; first
+		MOV		R3,R10			; last
+		CMP		R2,R3
+		BLEQ		RECUR
+		
+LOOP1	LDR		R11,[R3]
+		
+CON1
+		CMP		R1,R11
+		BGT		NEXT1
+		CMP		R2,R3
+		BGE		NEXT1
+		SUB		R3,R3,#4
+		LDR		R11,[R3]
+		BL		CON1
+		
+		
+NEXT1	LDR		R7,[R2]
+		LDR		R8,[R3]
+		STR		R8,[R2]
+		STR		R7,[R3]
+		ADD		R2,R2,#4
+		ADD		R4,R4,#1
+		CMP		R2,R3
+		BGE		EN
+		
+LOOP2	LDR		R11,[R2]
+		
+CON2
+		CMP		R11,R1
+		BGT		NEXT2
+		CMP		R2,R3
+		BGE		NEXT2
+		ADD		R2,R2,#4
+		LDR		R11,[R2]
+		BL		CON2
+		
+		
+NEXT2	LDR		R7,[R2]
+		LDR		R8,[R3]
+		STR		R8,[R2]
+		STR		R7,[R3]
+		SUB		R3,R3,#4
+		CMP		R2,R3
+		BGE		EN
+		BL		LOOP1
+		
+EN
+		STR		R0,[R5]
+		ADD		R5,R5,#4
+		STR		R3,[R5]
+		ADD		R5,R5,#4
+		STR		R2,[R5]
+		ADD		R5,R5,#4
+		STR		R10,[R5]
+		ADD		R5,R5,#4
+		ADD		R9,R9,#4
+		
+RECUR
+		CMP		R9,#0
+		BLEQ		SEEYOUANS
+		SUB		R5,R5,#4
+		LDR		R10,[R5]
+		SUB		R5,R5,#4
+		LDR		R0,[R5]
+		SUB		R9,R9,#2
+		BL		SORT
+		
+		
+		;check	& pop
+		
+SEEYOUANS
